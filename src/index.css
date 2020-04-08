@@ -39,13 +39,30 @@ p, li {
   font-family: "Lato", Helvetica, sans-serif;
 }
 
+h1, h2, h3, button {
+  font-family: "Josefin Sans", Arial, serif;
+}
+
+h1 {
+  font-size: 62px;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+span {
+  background: #E83A3A;
+  padding: 10px;
+  position: relative;
+}
+
 .page__wrap {
-  width: 1280px;
+  width: 1360px;
   margin: 0 auto;
 }
 
 button {
-  font-family: "Josefin Sans", Arial, serif;
   font-size: 16px;
   background: white;
   border: 3px solid black;
@@ -59,6 +76,30 @@ button--cta {
 
 .mainelement {
   padding: 50px 50px;
+}
+
+.root {
+  z-index: 1;
+}
+
+.menu {
+  position: fixed;
+  height: 100%;
+  padding: 50px 100px;
+  width: auto;
+  background: white;
+  z-index: 2;
+  right: -100%;
+  box-shadow: 0px 0px 20px #ccc;
+}
+.menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+.menu ul li {
+  font-family: "Josefin Sans", Arial, serif;
+  padding-bottom: 20px;
+  font-size: 24px;
 }
 
 .header {
@@ -78,10 +119,44 @@ button--cta {
 }
 .header__menuicon {
   display: inline-block;
+  margin-top: 10px;
   margin-left: 20px;
   vertical-align: top;
-  height: 50px;
+  height: 25px;
   cursor: pointer;
+}
+
+.hero__portrait, .hero__text {
+  display: inline-block;
+}
+.hero__text {
+  padding: 50px 0px 0px 20px;
+  vertical-align: top;
+}
+.hero__text h1 {
+  margin-bottom: 20px;
+}
+
+.projects__headline {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.projects__article {
+  margin: 0px auto 30px auto;
+}
+.projects__article__text {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px 20px;
+}
+.projects__article__text--right {
+  text-align: right;
+}
+.projects__article__image {
+  display: inline-block;
+}
+.projects__article__image img {
+  width: 100%;
 }
 
 .footer {
