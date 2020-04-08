@@ -35,8 +35,15 @@
   padding: 0;
 }
 
-p, li {
+p, li, a {
   font-family: "Lato", Helvetica, sans-serif;
+  font-family: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
 }
 
 h1, h2, h3, button {
@@ -51,6 +58,10 @@ h2 {
   font-size: 44px;
 }
 
+h3 {
+  font-size: 32px;
+}
+
 span {
   background: #E83A3A;
   padding: 10px;
@@ -63,7 +74,7 @@ span {
 }
 
 button {
-  font-size: 16px;
+  font-size: 18px;
   background: white;
   border: 3px solid black;
   padding: 10px 20px;
@@ -137,6 +148,9 @@ button--cta {
   margin-bottom: 20px;
 }
 
+.projects a {
+  border-bottom: 3px solid #E83A3A;
+}
 .projects__headline {
   text-align: center;
   margin-bottom: 30px;
@@ -152,8 +166,12 @@ button--cta {
 .projects__article__text--right {
   text-align: right;
 }
+.projects__article__text * {
+  margin-bottom: 20px;
+}
 .projects__article__image {
   display: inline-block;
+  padding: 0px 30px;
 }
 .projects__article__image img {
   width: 100%;

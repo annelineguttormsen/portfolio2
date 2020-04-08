@@ -12,9 +12,9 @@ export default function Footer() {
             </div>
             <div className="col-4 footer__list">
                 <ul>
-                    <li>hjem</li>
-                    <li>om meg</li>
-                    <li>kontakt</li>
+                    <li>Hjem</li>
+                    <li>Om meg</li>
+                    <li>Kontakt</li>
                     <li>CV</li>
                 </ul>
             </div>

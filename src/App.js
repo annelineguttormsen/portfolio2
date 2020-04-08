@@ -2,7 +2,7 @@ import React from 'react';
 
 //components
 import Header from "./components/Header.js";
-import Hero from "./components/Hero.js";
+import Home from "./components/Home.js";
 import Footer from "./components/Footer.js";
 import Menu from "./components/Menu.js";
 
@@ -13,7 +13,7 @@ function App() {
         <Menu/>
         <Header/>
         {/* gjør om til router */}
-        <Hero/>
+        <Home/>
         <Footer/>
       </div>
     </div>
