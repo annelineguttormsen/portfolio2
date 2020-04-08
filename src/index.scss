@@ -1,0 +1,65 @@
+@import "partials/cols";
+@import "partials/variables";
+
+* {
+    margin:0;
+    padding:0;
+}
+p, li {
+    font-family:$contentfont;
+}
+.page__wrap {
+    width:1280px;
+    margin:0 auto;
+}
+button {
+    font-family:$headlinefont;
+    font-size:16px;
+    background:white;
+    border:3px solid black;
+    padding:10px 20px;
+    vertical-align:top;
+    text-align:right;
+    &--cta {
+        border-radius:none;
+    }
+}
+.mainelement {
+    padding:50px 50px;
+}
+.header {
+    position:relative;
+    &__logo {
+        vertical-align:top;
+        height:50px;
+    }
+    &__rightwrap {
+        position:absolute;
+        right:50px;
+        top:50px;
+    }
+    button {
+        display:inline-block;
+    }
+    &__menuicon {
+        display:inline-block;
+        margin-left:20px;
+        vertical-align:top;
+        height:50px;
+        cursor:pointer;
+    }
+}
+.footer {
+    background:$lightblack;
+    color:white;
+    &__list {
+        display:inline-block;
+        vertical-align:top;
+    }
+    ul {
+        list-style-type: none;
+        li {
+            padding:10px 0px;
+        }
+    }
+}
