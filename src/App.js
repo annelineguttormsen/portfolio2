@@ -9,7 +9,7 @@ import Menu from "./components/Menu.js";
 function App() {
   return (
     <div className="App">
-      <div className="page__wrap">
+      <div className="col-lg-12 page__wrap">
         <Menu/>
         <Header/>
         {/* gjør om til router */}

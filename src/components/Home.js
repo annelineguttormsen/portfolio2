@@ -4,7 +4,9 @@ export default function Home() {
     return (
         <>
         <div className="col-12 mainelement hero">
-            <img className="col-6 hero__portrait" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" alt="Portrait of Anneline Guttormsen"/>
+            <div className="col-6 hero__portrait">
+                <img className="col-10 col-md-12" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" alt="Portrait of Anneline Guttormsen"/>
+            </div>
             <div className="col-6 hero__text">
                 <h1>Hei!</h1>
                 <h2>Jeg heter Anneline Guttormsen og jeg er <span>frontendutvikler</span></h2>
@@ -14,7 +16,7 @@ export default function Home() {
             <div className="col-12 projects__headline">
                 <h2><span>Mine prosjekter</span></h2>
             </div>
-            <div className="col-8 projects__article">
+            <div className="col-8 col-md-12 projects__article">
                 <div className="col-6 projects__article__text projects__article__text--right">
                     <h3>Semesterprosjekt</h3>
                     <p>
@@ -26,7 +28,7 @@ export default function Home() {
                     <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"/>
                 </div>
             </div>
-            <div className="col-8 projects__article">
+            <div className="col-8 col-md-12 projects__article">
                 <div className="col-6 projects__article__image">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"/>
                 </div>
@@ -38,7 +40,7 @@ export default function Home() {
                     <a href="#">Kildekode for React Course Assignment</a>
                 </div>
             </div>
-            <div className="col-8 projects__article">
+            <div className="col-8 col-md-12 projects__article">
                 <div className="col-6 projects__article__text projects__article__text--right">
                     <h3>Tittel tittel</h3>
                     <p>

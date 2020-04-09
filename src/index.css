@@ -68,11 +68,6 @@ span {
   position: relative;
 }
 
-.page__wrap {
-  width: 1360px;
-  margin: 0 auto;
-}
-
 button {
   font-size: 18px;
   background: white;
@@ -83,6 +78,11 @@ button {
 }
 button--cta {
   border-radius: none;
+}
+
+.page__wrap {
+  width: 1280px;
+  margin: 0 auto;
 }
 
 .mainelement {
@@ -140,6 +140,9 @@ button--cta {
 .hero__portrait, .hero__text {
   display: inline-block;
 }
+.hero__portrait img {
+  float: right;
+}
 .hero__text {
   padding: 50px 0px 0px 20px;
   vertical-align: top;
@@ -190,6 +193,147 @@ button--cta {
 }
 .footer ul li {
   padding: 10px 0px;
+}
+
+@media only screen and (max-width: 1280px) {
+  [class^=col] {
+    box-sizing: border-box;
+  }
+
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  .col-lg-10 {
+    width: 83.33%;
+  }
+
+  .col-lg-8 {
+    width: 66.66%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+  }
+
+  .col-lg-3 {
+    width: 24.99%;
+  }
+
+  .col-lg-2 {
+    width: 16.66%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  [class^=col] {
+    box-sizing: border-box;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .col-md-10 {
+    width: 83.33%;
+  }
+
+  .col-md-8 {
+    width: 66.66%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-4 {
+    width: 33.33%;
+  }
+
+  .col-md-3 {
+    width: 24.99%;
+  }
+
+  .col-md-2 {
+    width: 16.66%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  [class^=col] {
+    box-sizing: border-box;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  .col-sm-10 {
+    width: 83.33%;
+  }
+
+  .col-sm-8 {
+    width: 66.66%;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-4 {
+    width: 33.33%;
+  }
+
+  .col-sm-3 {
+    width: 24.99%;
+  }
+
+  .col-sm-2 {
+    width: 16.66%;
+  }
+
+  .mainelement {
+    padding: 50px 25px;
+  }
+
+  p, li, a {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  [class^=col] {
+    box-sizing: border-box;
+  }
+
+  .col-xs-12 {
+    width: 100%;
+  }
+
+  .col-xs-10 {
+    width: 83.33%;
+  }
+
+  .col-xs-8 {
+    width: 66.66%;
+  }
+
+  .col-xs-6 {
+    width: 50%;
+  }
+
+  .col-xs-4 {
+    width: 33.33%;
+  }
+
+  .col-xs-3 {
+    width: 24.99%;
+  }
+
+  .col-xs-2 {
+    width: 16.66%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

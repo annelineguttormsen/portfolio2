@@ -31,10 +31,7 @@ span {
     padding:10px;
     position:relative;
 }
-.page__wrap {
-    width:1360px;
-    margin:0 auto;
-}
+
 button {
     font-size:18px;
     background:white;
@@ -45,6 +42,10 @@ button {
     &--cta {
         border-radius:none;
     }
+}
+.page__wrap {
+    width:1280px;
+    margin:0 auto;
 }
 .mainelement {
     padding:50px 50px;
@@ -98,6 +99,11 @@ button {
     &__portrait, &__text {
         display:inline-block;
     }
+    &__portrait {
+        img {
+            float:right;
+        }
+    }
     &__text {
         padding:50px 0px 0px 20px;
         vertical-align:top;
@@ -150,3 +156,4 @@ button {
         }
     }
 }
+@import "partials/media";
