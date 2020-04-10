@@ -49,6 +49,18 @@
     .col-md-2 {
         width:16.66%;
     }
+    h1 {
+        font-size:52px;
+    }
+    h2 {
+        font-size:34px;
+    }
+    h3 {
+        font-size:26px;
+    }
+    .projects__article__text * {
+        margin-bottom:5px;
+    }
 }
 @media only screen and (max-width:768px) {
     [class^="col"] {
