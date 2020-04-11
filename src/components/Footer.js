@@ -18,6 +18,7 @@ export default function Footer() {
                     <li>CV</li>
                 </ul>
             </div>
+            <img className="footer__logo" src="small_logo.svg"/>
         </div>
     )
 }

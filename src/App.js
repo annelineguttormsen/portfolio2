@@ -12,6 +12,9 @@ import Home from "./components/Home.js";
 import Footer from "./components/Footer.js";
 import Menu from "./components/Menu.js";
 import About from "./components/About.js";
+import Contact from "./components/Contact.js";
+import CV from "./components/CV.js";
+import NoMatch from "./components/NoMatch.js";
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
           <Switch>
             <Route component={Home} path="/" exact/>
             <Route component={About} path="/om_meg"/>
+            <Route component={CV} path="/cv"/>
+            <Route component={Contact} path="/kontakt"/>
+            <Route component={NoMatch} path="*"/>
           </Switch>
           <Footer/>
         </div>

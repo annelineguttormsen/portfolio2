@@ -7,7 +7,7 @@
 }
 p, li, a {
     font-family:$contentfont;
-    font-family:16px;
+    font-size:20px;
 }
 a {
     text-decoration:none;
@@ -26,12 +26,19 @@ h2 {
 h3 {
     font-size:32px;
 }
-span {
+.span__wrap {
     background:$red;
-    padding:10px;
     position:relative;
+    top:5px;
+    left:20px;
+    &__text {
+        background:transparent;
+        position:relative;
+        top:-5px;
+        left:-20px;
+    }
 }
-button {
+.btn {
     font-size:18px;
     background:white;
     border:3px solid black;
@@ -41,6 +48,11 @@ button {
     &--cta {
         border-radius:none;
     }
+}
+.clearfix::after {
+    content:"";
+    clear:both;
+    display:table;
 }
 .page__wrap {
     width:1280px;
@@ -82,7 +94,7 @@ button {
         right:50px;
         top:50px;
     }
-    button {
+    .btn--cta {
         display:inline-block;
     }
     &__menuicon {
@@ -141,11 +153,42 @@ button {
         }
     }
 }
-//import for alle de andre sidene
-
+.about {
+    &__text, &__portrait {
+        display:inline-block;
+        vertical-align:top;
+        text-align:right;
+    }
+    &__portrait {
+        img {
+            float:left;
+            margin-left:30px;
+        }
+    }
+}
+.cv {
+    &__list {
+        display:inline-block;
+        vertical-align:top;
+        padding-right:20px;
+        ul {
+            list-style-type:none;
+            li {
+                padding-bottom:30px;
+                p {
+                    padding-bottom:5px;
+                }
+            }
+        }
+    }
+}
+.nomatch {
+    text-align:center;
+}
 .footer {
     background:$lightblack;
     color:white;
+    position:relative;
     &__list {
         display:inline-block;
         vertical-align:top;
@@ -155,6 +198,12 @@ button {
         li {
             padding:10px 0px;
         }
+    }
+    &__logo {
+        width:50px;
+        position:absolute;
+        right:50px;
+        bottom:50px;
     }
 }
 @import "partials/media";

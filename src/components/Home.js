@@ -9,12 +9,12 @@ export default function Home() {
             </div>
             <div className="col-6 hero__text">
                 <h1>Hei!</h1>
-                <h2>Jeg heter Anneline Guttormsen og jeg er <span>frontendutvikler</span></h2>
+                <h2>Jeg heter Anneline Guttormsen og jeg er <span className="span__wrap"><span className="span__wrap__text">frontendutvikler</span></span></h2>
             </div>
         </div>
         <div className="col-12 mainelement projects">
             <div className="col-12 projects__headline">
-                <h2><span>Mine prosjekter</span></h2>
+                <h2><span className="span__wrap"><span className="span__wrap__text">Mine prosjekter</span></span></h2>
             </div>
             <div className="col-8 col-md-12 projects__article">
                 <div className="col-6 projects__article__text projects__article__text--right">
