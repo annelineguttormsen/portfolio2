@@ -3,7 +3,7 @@ import React from "react";
 export default function CV() {
     return (
         <div className="col-12 mainelement cv">
-            <h1>CV</h1>
+            <h1 className="cv__headline"><span className="span__wrap"><span className="span__wrap__text">CV</span></span></h1>
             <div className="col-4 col-sm-6 col-xs-12 cv__list">
                 <h2>Erfaring</h2>
                 <ul>

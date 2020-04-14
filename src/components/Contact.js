@@ -11,7 +11,7 @@ export default function Contact() {
                 <input type="text" placeholder="ole.nordmann@gmail.com"/>
                 <label><p>Melding</p></label>
                 <textarea placeholder="Din melding her"></textarea>
-                <button className="btn" type="submit">Send melding</button>
+                <button className="btn" type="submit"><p>Send melding</p></button>
             </form>
         </div>
     )

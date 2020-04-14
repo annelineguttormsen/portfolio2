@@ -1,10 +1,11 @@
-window.onload = function() {
-    const hbIcon = document.querySelector(".header__menuicon");
-    const menu = document.querySelector(".menu");
+$(function() {
+    const menuBtn = $(".header__menuicon");
+    const menu = $(".menu");
 
-    hbIcon.addEventListener("click",toggleMenu);
+    console.log(menuBtn, menu);
 
-    function toggleMenu() {
-        menu.style.right = "0px";
-    }
-}
+    menuBtn.on("click", function() {
+        menu.toggleClass(".menu--open");
+        console.log("hei");
+    });
+});

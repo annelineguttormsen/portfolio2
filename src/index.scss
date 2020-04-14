@@ -37,17 +37,24 @@ h3 {
         top:-5px;
         left:-20px;
     }
+    &--tablet {
+        background:transparent!important;
+    }
 }
 .btn {
     font-size:18px;
     background:white;
     border:3px solid black;
-    padding:10px 20px 7px 20px;
+    //padding:10px 20px 7px 20px;
     vertical-align:top;
-    display:block;
-    cursor:pointer;
-    a {
+    position:relative;
+    &:active {
+        top:3px;
+    }
+    a, p {
         font-weight:700;
+        display:block;
+        padding:10px 20px 7px 20px;
         font-family:$headlinefont;
     }
 }
@@ -73,13 +80,19 @@ h3 {
     width:auto;
     background:white;
     z-index:2;
-    right:-100%;
+    right:0px;
     box-shadow:0px 0px 20px #ccc;
+    display:none;
+    &--open {
+        display:block;
+    }
     ul {
         list-style-type:none;
         text-align:center;
         li {
-            font-family:$headlinefont;
+            a {
+                font-family:$headlinefont;
+            }
             padding-bottom:20px;
             font-size:24px;
         }
@@ -105,6 +118,7 @@ h3 {
         margin-left:20px;
         vertical-align:top;
         height:25px;
+        cursor:pointer;
     }
 }
 .hero {
@@ -138,6 +152,9 @@ h3 {
             display:inline-block;
             vertical-align:top;
             padding:0px 20px;
+            a {
+                font-weight:700;
+            }
             &--right {
                 text-align:right;
             }
@@ -171,6 +188,9 @@ h3 {
     }
 }
 .cv {
+    &__headline {
+        margin-bottom:20px;
+    }
     &__list {
         display:inline-block;
         vertical-align:top;
@@ -192,6 +212,7 @@ h3 {
     }
     input, textarea {
         width:100%;
+        margin-bottom:20px;
         max-width:100%;
         padding:10px;
         font-family:$contentfont;
@@ -201,9 +222,6 @@ h3 {
     }
     textarea {
         min-height:300px;
-    }
-    form * {
-        margin-bottom:20px;
     }
 }
 .nomatch {

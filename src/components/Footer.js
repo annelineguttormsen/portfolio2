@@ -19,7 +19,7 @@ export default function Footer() {
                     <li><Link to="/cv">CV</Link></li>
                 </ul>
             </div>
-            <img className="footer__logo" src="small_logo.svg"/>
+            <img className="footer__logo" src="small_logo.svg" alt="Small logo" />
         </div>
     )
 }
