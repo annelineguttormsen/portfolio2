@@ -38,11 +38,11 @@
 p, li, a {
   font-family: "Lato", Helvetica, sans-serif;
   font-size: 20px;
+  font-weight: 400;
 }
 
 a {
   text-decoration: none;
-  font-weight: 700;
   color: black;
 }
 
@@ -81,10 +81,12 @@ h3 {
   border: 3px solid black;
   padding: 10px 20px 7px 20px;
   vertical-align: top;
-  text-align: right;
+  display: block;
+  cursor: pointer;
 }
-.btn--cta {
-  border-radius: none;
+.btn a {
+  font-weight: 700;
+  font-family: "Josefin Sans", Arial, serif;
 }
 
 .clearfix::after {
@@ -147,7 +149,6 @@ h3 {
   margin-left: 20px;
   vertical-align: top;
   height: 25px;
-  cursor: pointer;
 }
 
 .hero__portrait, .hero__text {
@@ -181,6 +182,9 @@ h3 {
 }
 .projects__article__text--right {
   text-align: right;
+}
+.projects__article__text--mobile {
+  display: none;
 }
 .projects__article__text * {
   margin-bottom: 20px;
@@ -218,6 +222,25 @@ h3 {
   padding-bottom: 5px;
 }
 
+.contact h2 {
+  padding: 0px 0px 20px 20px;
+}
+.contact input, .contact textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 20px;
+  border: 3px solid black;
+  box-sizing: border-box;
+}
+.contact textarea {
+  min-height: 300px;
+}
+.contact form * {
+  margin-bottom: 20px;
+}
+
 .nomatch {
   text-align: center;
 }
@@ -226,6 +249,9 @@ h3 {
   background: #191919;
   color: white;
   position: relative;
+}
+.footer a {
+  color: white;
 }
 .footer__list {
   display: inline-block;
@@ -366,6 +392,16 @@ h3 {
   p, li, a {
     font-size: 16px;
   }
+
+  .hero {
+    position: relative;
+  }
+  .hero__text {
+    text-align: right;
+    position: absolute;
+    right: 50px;
+    top: 70px;
+  }
 }
 @media only screen and (max-width: 576px) {
   [class^=col] {
@@ -400,12 +436,22 @@ h3 {
     width: 16.66%;
   }
 
+  .header {
+    padding-bottom: 0px;
+  }
   .header .btn--cta {
     display: none;
   }
 
   .cv {
     text-align: center;
+  }
+
+  .projects__article__text--mobile {
+    display: block;
+  }
+  .projects__article__text--right {
+    display: none;
   }
 }
 
