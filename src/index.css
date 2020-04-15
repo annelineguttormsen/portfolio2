@@ -212,7 +212,18 @@ h3 {
 .projects__article__image img {
   width: 100%;
 }
+.projects__article__icon {
+  height: 40px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 0px 10px 0px 0px;
+  position: relative;
+  top: 10px;
+}
 
+.about {
+  margin-bottom: 200px;
+}
 .about__text, .about__portrait {
   display: inline-block;
   vertical-align: top;
@@ -221,6 +232,19 @@ h3 {
 .about__portrait img {
   float: left;
   margin-left: 30px;
+}
+.about__icon {
+  height: 40px;
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+  top: 5px;
+}
+.about h2 {
+  display: inline-block;
+}
+.about h2, .about p {
+  margin-bottom: 20px;
 }
 
 .cv__headline {
@@ -426,6 +450,15 @@ h3 {
     right: 50px;
     top: 20px;
   }
+
+  .about__portrait img {
+    margin-left: 0;
+    margin-right: 50px;
+    float: right;
+  }
+  .about__icon {
+    display: none;
+  }
 }
 @media only screen and (max-width: 576px) {
   [class^=col] {
@@ -476,6 +509,10 @@ h3 {
   }
   .projects__article__text--right {
     display: none;
+  }
+
+  .about__text {
+    text-align: left;
   }
 }
 

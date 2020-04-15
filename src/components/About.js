@@ -3,13 +3,16 @@ import React from "react";
 export default function About() {
     return (
         <div className="col-12 mainelement about">
-            <div className="col-6 about__text">
-                <h2><span className="span__wrap"><span className="span__wrap__text">Om meg</span></span></h2>
+            <div className="col-6 col-xs-12 about__text">
+                <img class="about__icon" alt="Decorative image" src="abt_logo.svg"/><h2><span className="span__wrap"><span className="span__wrap__text">Om meg</span></span></h2>
                 <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
+                    Jeg kommer fra Alta i Finnmark og er 24 år. Jeg flyttet til Bergen i 2016 etter et år på Voss Folkehøyskole hvor jeg studerte på datalinja med fokus på JavaScript. 
                 </p>
-            </div><div className="col-6 about__portrait">
-                <img className="col-8" src="selvportrett.svg" alt="Illustrated portrait of Anneline Guttormsen"/>
+                <p>
+                    I 2018 begynte jeg på Frontendutvikling på Noroff i Bergen ettersom jeg hadde mye erfaring med webutvikling men ønsket å lære enda mer. Samtidig startet jeg i 7-Eleven hvor jeg nå er assisterende butikksjef.
+                </p>
+            </div><div className="col-6 col-xs-12 about__portrait">
+                <img className="col-8 col-sm-10" src="selvportrett.svg" alt="Illustrated portrait of Anneline Guttormsen"/>
             </div>
         </div>
     )

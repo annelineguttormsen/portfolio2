@@ -26,6 +26,10 @@ h2 {
 h3 {
     font-size:32px;
 }
+//to get the offset background for certain headlines
+//the headline gets wrapped in two span elements
+//the wrap is red and has an offset on top and to the left while
+//the text wrap offsets the text back to its original place
 .span__wrap {
     background:$red;
     position:relative;
@@ -172,9 +176,18 @@ h3 {
                 width:100%;
             }
         }
+        &__icon {
+            height:40px;
+            display:inline-block;
+            vertical-align:bottom;
+            margin:0px 10px 0px 0px;
+            position:relative;
+            top:10px;
+        }
     }
 }
 .about {
+    margin-bottom:200px;
     &__text, &__portrait {
         display:inline-block;
         vertical-align:top;
@@ -185,6 +198,19 @@ h3 {
             float:left;
             margin-left:30px;
         }
+    }
+    &__icon {
+        height:40px;
+        display:inline-block;
+        margin-right:20px;
+        position:relative;
+        top:5px;
+    }
+    h2 {
+        display:inline-block;
+    }
+    h2, p {
+        margin-bottom:20px;
     }
 }
 .cv {
