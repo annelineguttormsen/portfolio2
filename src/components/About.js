@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div className="col-12 mainelement about">
             <div className="col-6 col-xs-12 about__text">
-                <img class="about__icon" alt="Decorative image" src="abt_logo.svg"/><h2><span className="span__wrap"><span className="span__wrap__text">Om meg</span></span></h2>
+                <img class="about__icon" alt="Decorative pointers" src="abt_logo.svg"/><h2><span className="span__wrap"><span className="span__wrap__text">Om meg</span></span></h2>
                 <p>
                     Jeg kommer fra Alta i Finnmark og er 24 år. Jeg flyttet til Bergen i 2016 etter et år på Voss Folkehøyskole hvor jeg studerte på datalinja med fokus på JavaScript. 
                 </p>

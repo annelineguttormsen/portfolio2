@@ -26,7 +26,7 @@ export default function Home() {
                     <img className="projects__article__icon" src="github_logo.svg" alt="Github Logo"/><a href="https://github.com/annelineguttormsen/semesterprosjekt2">Kildekode for semesterprosjekt</a>
                 </div>
                 <div className="col-6 col-xs-12 projects__article__image">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"/>
+                    <img alt="Semesterprosjekt illustrerende bilde" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"/>
                 </div>
                 <div className="col-xs-12 projects__article__text projects__article__text--mobile">
                     <h3>Semesterprosjekt</h3>
@@ -37,7 +37,7 @@ export default function Home() {
             </div>
             <div className="col-8 col-lg-10 col-md-12 projects__article">
                 <div className="col-6 col-xs-12 projects__article__image">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"/>
+                    <img alt="React course assignment illustrerende bilde" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"/>
                 </div>
                 <div className="col-6 col-xs-12 projects__article__text">
                     <h3>React Course Assignment</h3>
@@ -49,21 +49,21 @@ export default function Home() {
             </div>
             <div className="col-8 col-lg-10 col-md-12 projects__article">
                 <div className="col-6 projects__article__text projects__article__text--right">
-                    <h3>Tittel tittel</h3>
+                    <h3>Portfolio 1</h3>
                     <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim 
                     </p>
-                    <img className="projects__article__icon" src="github_logo.svg" alt="Github Logo"/><a href="#">Kildekode for Portfolio 1</a>
+                    <img className="projects__article__icon" src="github_logo.svg" alt="Github Logo"/><a href="https://github.com/annelineguttormsen/portfolio1">Kildekode for Portfolio 1</a>
                 </div>
                 <div className="col-6 col-xs-12 projects__article__image">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"/>
+                    <img alt="Portfolio 1 illustrerende bilde" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"/>
                 </div>
                 <div className="col-xs-12 projects__article__text projects__article__text--mobile">
-                    <h3>Tittel tittel</h3>
+                    <h3>Portfolio 1</h3>
                     <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim 
                     </p>
-                    <img className="projects__article__icon" src="github_logo.svg" alt="Github Logo"/><a href="#">Kildekode for Portfolio 1</a>
+                    <img className="projects__article__icon" src="github_logo.svg" alt="Github Logo"/><a href="https://github.com/annelineguttormsen/portfolio1">Kildekode for Portfolio 1</a>
                 </div>
             </div>
         </div>
