@@ -7,8 +7,8 @@ export default function Footer() {
             <div className="col-4 col-md-6 col-xs-12 footer__list">
                 <ul>
                     <li>Anneline Guttormsen</li>
-                    <li>+47 410 86 459</li>
-                    <li>anneline.guttormsen@hotmail.no</li>
+                    <li><a href="tel:+4741086459">+47 410 86 459</a></li>
+                    <li><a href="mailto:anneline.guttormsen@hotmail.no">anneline.guttormsen@hotmail.no</a></li>
                 </ul>
             </div>
             <div className="col-4 col-md-6 col-xs-12 footer__list">

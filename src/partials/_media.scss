@@ -120,6 +120,11 @@
             display:none;
         }
     }
+    .footer {
+        a {
+            text-decoration:underline;
+        }
+    }
 }
 @media only screen and (max-width:576px) {
     [class^="col"] {

@@ -26,7 +26,7 @@ export default function Home() {
                     <img className="projects__article__icon" src="github_logo.svg" alt="Github Logo"/><a href="https://github.com/annelineguttormsen/semesterprosjekt2">Kildekode for semesterprosjekt</a>
                 </div>
                 <div className="col-6 col-xs-12 projects__article__image">
-                    <img alt="Semesterprosjekt illustrerende bilde" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"/>
+                    <img alt="Semesterprosjekt illustrerende bilde" src="got_logo.svg"/>
                 </div>
                 <div className="col-xs-12 projects__article__text projects__article__text--mobile">
                     <h3>Semesterprosjekt</h3>
@@ -44,6 +44,9 @@ export default function Home() {
                     <p>
                         Den endelige oppgaven for JavaScript Frameworks 2 handlet om å lage et React prosjekt med routing, søkefunksjon og inputvalidering.
                     </p>
+                    <p>
+                        Prosjektet viste ikke bare hva vi hadde lært av basic React men også Node.js.
+                    </p>
                     <img className="projects__article__icon" src="github_logo.svg" alt="Github Logo"/><a href="https://github.com/annelineguttormsen/jsf_ca">Kildekode for React Course Assignment</a>
                 </div>
             </div>
@@ -51,7 +54,7 @@ export default function Home() {
                 <div className="col-6 projects__article__text projects__article__text--right">
                     <h3>Portfolio 1</h3>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim 
+                    Ved slutten av første året på Frontendutvikling fikk vi også i oppgave å lage en portfolio. Dette prosjektet var litt mer fokusert på planlegging av selve prosjektet og vise hva vi hadde lært i Adobe Illustrator.
                     </p>
                     <img className="projects__article__icon" src="github_logo.svg" alt="Github Logo"/><a href="https://github.com/annelineguttormsen/portfolio1">Kildekode for Portfolio 1</a>
                 </div>
@@ -61,7 +64,7 @@ export default function Home() {
                 <div className="col-xs-12 projects__article__text projects__article__text--mobile">
                     <h3>Portfolio 1</h3>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim 
+                    Ved slutten av første året på Frontendutvikling fikk vi også i oppgave å lage en portfolio. Dette prosjektet var litt mer fokusert på planlegging av selve prosjektet og vise hva vi hadde lært i Adobe Illustrator.
                     </p>
                     <img className="projects__article__icon" src="github_logo.svg" alt="Github Logo"/><a href="https://github.com/annelineguttormsen/portfolio1">Kildekode for Portfolio 1</a>
                 </div>
