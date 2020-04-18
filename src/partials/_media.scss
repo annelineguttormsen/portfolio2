@@ -108,6 +108,13 @@
             top:20px;
         }
     }
+    .projects {
+        &__article {
+            &__icon {
+                height:25px;
+            }
+        }
+    }
     .about {
         &__portrait {
             img {

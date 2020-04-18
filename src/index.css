@@ -279,7 +279,7 @@ h3 {
 }
 .contact input, .contact textarea {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   max-width: 100%;
   padding: 10px;
   font-family: "Lato", Helvetica, sans-serif;
@@ -289,6 +289,15 @@ h3 {
 }
 .contact textarea {
   min-height: 300px;
+}
+.contact label p {
+  font-family: "Josefin Sans", Arial, serif;
+}
+.contact__error {
+  color: #E83A3A;
+  font-weight: 700;
+  position: absolute;
+  margin-top: -30px;
 }
 
 .nomatch {
@@ -461,6 +470,10 @@ h3 {
     position: absolute;
     right: 50px;
     top: 20px;
+  }
+
+  .projects__article__icon {
+    height: 25px;
   }
 
   .about__portrait img {

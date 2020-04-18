@@ -23,10 +23,10 @@ export default function Home() {
                     <h3>Semesterprosjekt</h3>
                     <p>Semesterprosjektet for det tredje semestret var litt utenom det vanlige og gikk ut på å lage et spill basert på Game of Thrones i nettleseren. </p>
                     <p>Her måtte jeg bevise min forståelse for canvas elementet, JavaScript objekter og klasse og kodeoptimalisering.</p>
-                    <img className="projects__article__icon" src="github_logo.svg" alt="Github Logo"/><a href="https://github.com/annelineguttormsen/semesterprosjekt2">Kildekode for semesterprosjekt</a>
+                    <img className="projects__article__icon" src="github_logo.svg"  alt="Github Logo"/><a href="https://github.com/annelineguttormsen/semesterprosjekt2">Kildekode for semesterprosjekt</a>
                 </div>
                 <div className="col-6 col-xs-12 projects__article__image">
-                    <img alt="Semesterprosjekt illustrerende bilde" src="got_logo.svg"/>
+                    <img alt="Semesterprosjekt illustrerende bilde" src="got_logo.png"/>
                 </div>
                 <div className="col-xs-12 projects__article__text projects__article__text--mobile">
                     <h3>Semesterprosjekt</h3>
@@ -37,7 +37,7 @@ export default function Home() {
             </div>
             <div className="col-8 col-lg-10 col-md-12 projects__article">
                 <div className="col-6 col-xs-12 projects__article__image">
-                    <img alt="React course assignment illustrerende bilde" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"/>
+                    <img alt="React course assignment illustrerende bilde" src="react_icon.png"/>
                 </div>
                 <div className="col-6 col-xs-12 projects__article__text">
                     <h3>React Course Assignment</h3>
@@ -59,7 +59,7 @@ export default function Home() {
                     <img className="projects__article__icon" src="github_logo.svg" alt="Github Logo"/><a href="https://github.com/annelineguttormsen/portfolio1">Kildekode for Portfolio 1</a>
                 </div>
                 <div className="col-6 col-xs-12 projects__article__image">
-                    <img alt="Portfolio 1 illustrerende bilde" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"/>
+                    <img alt="Portfolio 1 illustrerende bilde" src="portfolio1_icon.png"/>
                 </div>
                 <div className="col-xs-12 projects__article__text projects__article__text--mobile">
                     <h3>Portfolio 1</h3>
