@@ -82,6 +82,7 @@ h3 {
   font-size: 18px;
   background: white;
   border: 3px solid black;
+  cursor: pointer;
   vertical-align: top;
   position: relative;
 }
@@ -124,7 +125,7 @@ h3 {
   right: 0px;
   box-shadow: 0px 0px 20px #ccc;
   display: none;
-  overflow-x: scroll;
+  overflow: auto;
 }
 .menu--open {
   display: block;
@@ -139,7 +140,6 @@ h3 {
 .menu ul {
   list-style-type: none;
   text-align: center;
-  overflow: scroll;
 }
 .menu ul li {
   padding-bottom: 30px;
@@ -298,6 +298,12 @@ h3 {
   font-weight: 700;
   position: absolute;
   margin-top: -30px;
+}
+.contact__response {
+  margin-bottom: 100px;
+}
+.contact__response h2 {
+  padding-left: 0px;
 }
 
 .nomatch {

@@ -49,7 +49,7 @@ h3 {
     font-size:18px;
     background:white;
     border:3px solid black;
-    //padding:10px 20px 7px 20px;
+    cursor:pointer;
     vertical-align:top;
     position:relative;
     &:active {
@@ -90,7 +90,7 @@ h3 {
     right:0px;
     box-shadow:0px 0px 20px #ccc;
     display:none;
-    overflow-x:scroll;
+    overflow:auto;
     &__icon {
         cursor:pointer;
         width:30px;
@@ -101,7 +101,6 @@ h3 {
     ul {
         list-style-type:none;
         text-align:center;
-        overflow:scroll;
         li {
             a {
                 font-family:$headlinefont;
@@ -268,6 +267,12 @@ h3 {
         font-weight:700;
         position:absolute;
         margin-top:-30px;
+    }
+    &__response {
+        margin-bottom:100px;
+        h2 {
+            padding-left:0px;
+        }
     }
 }
 .nomatch {
