@@ -115,40 +115,6 @@ h3 {
   z-index: 1;
 }
 
-.menu {
-  position: relative;
-  position: fixed;
-  height: 100%;
-  padding: 50px 100px;
-  background: white;
-  z-index: 2;
-  right: 0px;
-  box-shadow: 0px 0px 20px #ccc;
-  display: none;
-  overflow: auto;
-}
-.menu--open {
-  display: block;
-}
-.menu__icon {
-  cursor: pointer;
-  width: 30px;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-.menu ul {
-  list-style-type: none;
-  text-align: center;
-}
-.menu ul li {
-  padding-bottom: 30px;
-}
-.menu ul li a {
-  font-family: "Josefin Sans", Arial, serif;
-  font-size: 42px;
-}
-
 .header {
   position: relative;
 }
@@ -161,16 +127,13 @@ h3 {
   right: 50px;
   top: 50px;
 }
-.header .btn--cta {
-  display: inline-block;
-}
-.header__menuicon {
-  display: inline-block;
-  margin-top: 10px;
+.header__menu {
   margin-left: 20px;
-  vertical-align: top;
-  height: 25px;
-  cursor: pointer;
+  display: inline-block;
+  list-style-type: none;
+}
+.header__menu li a {
+  font-family: "Josefin Sans", Arial, serif;
 }
 
 .hero__portrait, .hero__text {
@@ -339,10 +302,6 @@ h3 {
 }
 
 @media only screen and (max-width: 1280px) {
-  [class^=col] {
-    box-sizing: border-box;
-  }
-
   .col-lg-12 {
     width: 100%;
   }
@@ -372,10 +331,6 @@ h3 {
   }
 }
 @media only screen and (max-width: 992px) {
-  [class^=col] {
-    box-sizing: border-box;
-  }
-
   .col-md-12 {
     width: 100%;
   }
@@ -421,10 +376,6 @@ h3 {
   }
 }
 @media only screen and (max-width: 768px) {
-  [class^=col] {
-    box-sizing: border-box;
-  }
-
   .col-sm-12 {
     width: 100%;
   }
@@ -465,6 +416,10 @@ h3 {
     background: #E83A3A !important;
   }
 
+  .header__logo {
+    height: 45px;
+  }
+
   .hero {
     position: relative;
   }
@@ -496,10 +451,6 @@ h3 {
   }
 }
 @media only screen and (max-width: 576px) {
-  [class^=col] {
-    box-sizing: border-box;
-  }
-
   .col-xs-12 {
     width: 100%;
   }
@@ -530,9 +481,6 @@ h3 {
 
   .header {
     padding-bottom: 0px;
-  }
-  .header .btn--cta {
-    display: none;
   }
 
   .hero__portrait {

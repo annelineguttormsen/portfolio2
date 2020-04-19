@@ -9,7 +9,6 @@ import {
 import Header from "./components/Header.js";
 import Home from "./components/Home.js";
 import Footer from "./components/Footer.js";
-import Menu from "./components/Menu.js";
 import About from "./components/About.js";
 import Contact from "./components/Contact.js";
 import CV from "./components/CV.js";
@@ -20,7 +19,6 @@ function App() {
     <div className="App">
       <Router>
         <div className="col-lg-12 page__wrap">
-          <Menu/>
           <Header/>
           <Switch>
             <Route component={Home} path="/" exact/>
