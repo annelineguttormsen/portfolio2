@@ -31,7 +31,7 @@ export default function CV() {
                         <p><b>Noroff Bergen</b></p>
                         <p>Frontendutvikling</p>
                         <p>August 2018 - Juni 2020</p>
-                        <p><i>Utvikling og design av nettsider og apper til web- og mobilenheter.HTML, CSS, JavaScript, jQuery, SASS,React, Node.js, DevOps</i></p>
+                        <p><i>Utvikling og design av nettsider og apper til web- og mobilenheter. HTML, CSS, JavaScript, jQuery, SCSS,React, Node.js, DevOps</i></p>
                     </li>
                     <li>
                         <p><b>Voss Folkehøgskule</b></p>
@@ -48,8 +48,12 @@ export default function CV() {
                         <p>God kjennskap</p>
                     </li>
                     <li>
+                        <p><b>Adobe Illustrator, Adobe XD og Adobe Photoshop</b></p>
+                        <p>God kjennskap</p>
+                    </li>
+                    <li>
                         <p><b>SCSS, npm, React, jQuery</b></p>
-                        <p>Litt kjennskap</p>
+                        <p>Moderat bruk</p>
                     </li>
                 </ul>
             </div>
