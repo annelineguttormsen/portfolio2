@@ -1,16 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
         <>
         <div className="col-12 mainelement hero">
-            <div className="col-6 col-sm-8 col-xs-10 hero__portrait">
-                <img className="col-10 col-md-12" src="hero_portrait.png" alt="Portrait of Anneline Guttormsen"/>
-            </div>
-            <div className="col-6 col-sm-8 col-xs-10 hero__text">
+            <div className="col-6 col-sm-10 col-xs-12 hero__text hero__text--top clearfix">
                 <h1>Hei!</h1>
                 <h2>
-                    <span className="span__wrap span__wrap--tablet"><span className="span__wrap__text">Jeg heter Anneline Guttormsen og jeg er <span className="span__wrap"><span className="span__wrap__text">frontendutvikler</span></span></span></span>
+                    Jeg heter Anneline Guttormsen og jeg er <span className="span__wrap span__wrap--tablet"><span className="span__wrap__text">frontendutvikler</span></span>
+                </h2>
+            </div>
+            <div className="col-6 col-sm-8 col-xs-12 hero__portrait">
+                <img className="col-10 col-md-12" src="hero_portrait.png" alt="Portrait of Anneline Guttormsen"/>
+            </div>
+            <div className="col-6 col-sm-8 col-xs-10 hero__text hero__text--bottom">
+                <h1>Hei!</h1>
+                <h2>
+                    Jeg heter Anneline Guttormsen og jeg er <span className="span__wrap"><span className="span__wrap__text">frontendutvikler</span></span>
                 </h2>
             </div>
         </div>
@@ -18,7 +25,7 @@ export default function Home() {
             <div className="col-12 projects__headline">
                 <h2><span className="span__wrap"><span className="span__wrap__text">Mine prosjekter</span></span></h2>
             </div>
-            <div className="col-8 col-lg-10 col-md-12 projects__article">
+            <div className="col-10 col-md-12 projects__article">
                 <div className="col-6 projects__article__text projects__article__text--right">
                     <h3>Semesterprosjekt</h3>
                     <p>Semesterprosjektet for det tredje semestret var litt utenom det vanlige og gikk ut på å lage et spill basert på Game of Thrones i nettleseren. </p>
@@ -35,7 +42,7 @@ export default function Home() {
                     <img className="projects__article__icon" src="github_logo.svg" alt="Github Logo"/><a href="https://github.com/annelineguttormsen/semesterprosjekt2">Kildekode for semesterprosjekt</a>
                 </div>
             </div>
-            <div className="col-8 col-lg-10 col-md-12 projects__article">
+            <div className="col-10 col-md-12 projects__article">
                 <div className="col-6 col-xs-12 projects__article__image">
                     <img alt="React course assignment illustrerende bilde" src="react_icon.jpg"/>
                 </div>
@@ -50,7 +57,7 @@ export default function Home() {
                     <img className="projects__article__icon" src="github_logo.svg" alt="Github Logo"/><a href="https://github.com/annelineguttormsen/jsf_ca">Kildekode for React Course Assignment</a>
                 </div>
             </div>
-            <div className="col-8 col-lg-10 col-md-12 projects__article">
+            <div className="col-10 col-md-12 projects__article">
                 <div className="col-6 projects__article__text projects__article__text--right">
                     <h3>Portfolio 1</h3>
                     <p>

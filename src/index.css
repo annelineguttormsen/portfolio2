@@ -74,9 +74,6 @@ h3 {
   top: -5px;
   left: -20px;
 }
-.span__wrap--tablet {
-  background: transparent !important;
-}
 
 .btn {
   font-size: 18px;
@@ -149,9 +146,16 @@ h3 {
 .hero__text h1 {
   margin-bottom: 20px;
 }
+.hero__text--top {
+  padding-top: 0px;
+  display: none;
+}
 
 .projects a {
   border-bottom: 3px solid #E83A3A;
+  line-height: 1.5;
+  font-weight: 700;
+  vertical-align: top;
 }
 .projects__headline {
   text-align: center;
@@ -165,9 +169,6 @@ h3 {
   vertical-align: top;
   padding: 0px 20px;
 }
-.projects__article__text a {
-  font-weight: 700;
-}
 .projects__article__text--right {
   text-align: right;
 }
@@ -179,10 +180,14 @@ h3 {
 }
 .projects__article__image {
   display: inline-block;
-  padding: 0px 30px;
+  padding: 0px 20px;
+  transition: opacity 0.3s linear;
 }
 .projects__article__image img {
   width: 100%;
+}
+.projects__article__image:hover {
+  opacity: 0.8;
 }
 .projects__article__icon {
   height: 40px;
@@ -190,7 +195,7 @@ h3 {
   vertical-align: bottom;
   margin: 0px 10px 0px 0px;
   position: relative;
-  top: 10px;
+  bottom: 5px;
 }
 
 .about {
@@ -423,18 +428,20 @@ h3 {
   .hero {
     position: relative;
   }
-  .hero__portrait {
-    margin-top: 50px;
-  }
   .hero__text {
+    float: right;
     text-align: right;
-    position: absolute;
-    right: 50px;
-    top: 20px;
+  }
+  .hero__text--top {
+    display: block;
+  }
+  .hero__text--bottom {
+    display: none;
   }
 
   .projects__article__icon {
-    height: 25px;
+    height: 30px;
+    bottom: 0px;
   }
 
   .about__portrait img {
@@ -483,17 +490,17 @@ h3 {
     padding-bottom: 0px;
   }
 
-  .hero__portrait {
-    margin-top: 150px;
-  }
-  .hero__text {
-    top: 0px;
+  .hero__text h2 {
+    font-size: 28px;
   }
 
   .cv {
     text-align: center;
   }
 
+  .projects__article__image img {
+    padding: 30px 0px;
+  }
   .projects__article__text--mobile {
     display: block;
   }

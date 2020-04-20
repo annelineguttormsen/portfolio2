@@ -41,9 +41,6 @@ h3 {
         top:-5px;
         left:-20px;
     }
-    &--tablet {
-        background:transparent!important;
-    }
 }
 .btn {
     font-size:18px;
@@ -112,11 +109,18 @@ h3 {
         h1 {
             margin-bottom:20px;
         }
+        &--top {
+            padding-top:0px;
+            display:none;
+        }
     }
 }
 .projects {
     a {
         border-bottom:3px solid $red;
+        line-height:1.5;
+        font-weight:700;
+        vertical-align:top;
     }
     &__headline {
         text-align:center;
@@ -128,9 +132,6 @@ h3 {
             display:inline-block;
             vertical-align:top;
             padding:0px 20px;
-            a {
-                font-weight:700;
-            }
             &--right {
                 text-align:right;
             }
@@ -143,9 +144,13 @@ h3 {
         }
         &__image {
             display:inline-block;
-            padding:0px 30px;
+            padding:0px 20px;
+            transition:opacity .3s linear;
             img {
                 width:100%;
+            }
+            &:hover {
+                opacity:0.8;
             }
         }
         &__icon {
@@ -154,7 +159,7 @@ h3 {
             vertical-align:bottom;
             margin:0px 10px 0px 0px;
             position:relative;
-            top:10px;
+            bottom:5px;
         }
     }
 }

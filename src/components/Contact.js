@@ -24,8 +24,6 @@ export default function Contact() {
         setState({formData: data});
     }
 
-    console.log(state.formData == "");
-    
     let formHTML;
     if (state.formData == "") {
         formHTML = (
